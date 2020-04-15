@@ -1,0 +1,62 @@
+# https://gohugo.io/hosting-and-deployment/hosting-on-github/#deployment-of-project-pages-from-your-gh-pages-branch
+# https://github.com/peaceiris/actions-gh-pages
+
+name: github pages
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+
+    - name: cache npm
+      uses: actions/cache@v1
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+
+    - name: Setup node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
+    - run: npm install
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+        extended: true
+
+    - name: Build Hugo Testing
+      env:
+        TESTDIR: ${{ runner.temp }}/publicTesting
+        HUGO_ENVIRONMENT: "testing"
+        HUGO_RELATIVEURLS: true
+      run: hugo -d $TESTDIR
+
+    - name: Test Broken Links
+      env:
+        TMPDIR: ${{ runner.temp }}
+        TESTDIR: ${{ runner.temp }}/publicTesting
+      run: bash '.github/scripts/htmltest.sh'
+
+    - name: Build
+      run: hugo --minify
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: ./public
+      with:
+        forceOrphan: true

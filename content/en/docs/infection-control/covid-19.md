@@ -22,16 +22,18 @@ If you're in a store, a good way to measure is two shopping carts away.
 If you're going out walking, allow others to pass by instead of crowding them.
 
 ## What is Coronavirus..
-Coronaviruses are named for the crown-like spikes on their surface. There are four main sub-groupings of coronaviruses, known as alpha, beta, gamma, and delta.
-
-Human coronaviruses were first identified in the mid-1960s. The seven coronaviruses that can infect people are:
-* 229E (alpha coronavirus)
-* NL63 (alpha coronavirus)
-* OC43 (beta coronavirus)
-* HKU1 (beta coronavirus)
-* MERS-CoV (the beta coronavirus that causes Middle East Respiratory Syndrome, or MERS)
-* SARS-CoV (the beta coronavirus that causes severe acute respiratory syndrome, or SARS)
-* SARS-CoV-2 (the novel coronavirus that causes coronavirus disease 2019, or COVID-19)
+Coronaviruses are named for the crown-like spikes on their surface. Along with the recent strain of coronavirus that is currently causing a global pandemic there are six other known coronaviruses that can affect humans. These viruses include: 
+{{< bootstrap-table "table table-striped" >}}
+|Name|Group|Description|
+|:-:|:-:|-|
+229E|alpha|coronavirus|
+NL63|alpha|coronavirus|
+OC43|beta|coronavirus|
+HKU1|beta|coronavirus|
+MERS-CoV|beta|(the beta coronavirus that causes Middle East Respiratory Syndrome, or MERS)|
+SARS-CoV|beta|(the beta coronavirus that causes severe acute respiratory syndrome, or SARS)|
+SARS-CoV-2|novel|(the novel coronavirus that causes coronavirus disease 2019, or COVID-19)|
+{{< /bootstrap-table >}}
 
 ## Resources
 

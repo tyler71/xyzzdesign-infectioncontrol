@@ -4,5 +4,6 @@ resources/
 node_modules/
 tech-doc-hugo
 
+start-local-server.sh
 
 *.swp

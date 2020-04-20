@@ -8,6 +8,6 @@
 
 {{- range $postRequest.Countries -}}
     {{- if eq .Slug $slug -}}
-        {{ index . $stat }}
+        {{ index . $stat | lang.NumFmt 0 }}
     {{- end -}}
 {{- end -}}

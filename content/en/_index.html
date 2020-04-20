@@ -13,4 +13,15 @@ date: 2020-04-14T16:37:53-07:00
 	</a>
 </div>
 
-## Stay safe
+{{< bootstrap-table "table table-striped" >}}
+|Confirmed|Recovered|Deceased|
+|:-:|:-:|:-:|
+|{{< covid-cases stat="TotalConfirmed" >}}|{{< covid-cases stat="TotalRecovered" >}}|{{< covid-cases stat="TotalDeaths" >}}|
+{{< /bootstrap-table >}}
+
+{{< /blocks/cover >}}
+
+
+
+
+## Stay safe {{< covid-cases stat="TotalRecovered" >}}

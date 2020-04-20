@@ -21,7 +21,7 @@ If you're in a store, a good way to measure is two shopping carts away.
 If you're going out walking, allow others to pass by instead of crowding them.
 
 ## What is Coronavirus
-Coronavirus, is any virus belonging to the family Coronaviridae. These viruses are named after the Latin word corona which characterizes the crown-like spikes on the surface of the virus. Along with the recent strain that is currently causing a global pandemic, there are six other known coronaviruses that can affect humans. These viruses include: 
+Coronavirus, is any virus belonging to the family Coronaviridae. These viruses are named after the Latin word corona which characterizes the crown-like spikes on the surface of the virus. Along with the current strain causing the global pandemic, there are six other known coronaviruses that can affect humans. Each then is subdivided into four generes, the alpha, beta, gamma, and delta depending on their phylogenic clustering. These viruses include: 
 {{< bootstrap-table "table table-striped" >}}
 |Name|Group|Description|
 |:-:|:-:|-|
@@ -37,6 +37,8 @@ SARS-CoV-2|novel|(the novel coronavirus that causes coronavirus disease 2019, or
 > People around the world commonly get infected with human coronaviruses 229E, NL63, OC43, and HKU1. 
 >
 > Sometimes coronaviruses that infect animals can evolve and make people sick and become a new human coronavirus. Three recent examples of this are 2019-nCoV, SARS-CoV, and MERS-CoV.
+
+SARS coronaviruses 
 
 ## Resources
 

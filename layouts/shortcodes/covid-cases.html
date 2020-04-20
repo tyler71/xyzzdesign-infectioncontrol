@@ -7,7 +7,7 @@
 {{- $postRequest := getJSON $apiBase $apiSummary -}}
 
 {{- range $postRequest.Countries -}}
-    {{- if eq .country $country -}}
+    {{- if eq .Slug $country -}}
         {{ index . $stat | lang.NumFmt 0 }}
     {{- end -}}
 {{- end -}}

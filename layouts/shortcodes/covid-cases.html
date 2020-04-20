@@ -1,4 +1,4 @@
-{{- $slug := default "united-states" (.Get "slug") -}}
+{{- $country := default "united-states" (.Get "country") -}}
 {{- $stat := default "TotalConfirmed" (.Get "stat") -}}
 
 {{- $apiBase := "https://api.covid19api.com/" -}}
@@ -7,7 +7,7 @@
 {{- $postRequest := getJSON $apiBase $apiSummary -}}
 
 {{- range $postRequest.Countries -}}
-    {{- if eq .Slug $slug -}}
+    {{- if eq .country $country -}}
         {{ index . $stat | lang.NumFmt 0 }}
     {{- end -}}
 {{- end -}}

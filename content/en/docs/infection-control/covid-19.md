@@ -1,5 +1,5 @@
 ---
-title: "Covid-19"
+title: "COVID-19"
 menu:
   main:
     weight: 10
@@ -38,11 +38,16 @@ SARS-CoV-2|novel|(the novel coronavirus that causes coronavirus disease 2019, or
 >
 > Sometimes coronaviruses that infect animals can evolve and make people sick and become a new human coronavirus. Three recent examples of this are 2019-nCoV, SARS-CoV, and MERS-CoV.
 
-SARS coronaviruses 
+## Origination of COVID-19
 
+Coronaviruses (CoVs) originate from animals such camels, civets and bats and cause a variety of diseases in different species. In cows and pigs coronaviruses can cause enteritis, in chickens and humans they cause upper respiratory infections which can potentially be lethal to humans. SARS coronaviruses including COVID-19 are believed to have specifically originate from horseshoe bats.  
+
+The first case of (SARS-CoV-2) COVID-19 emerged in late December of 2019 after China reported cases of pneumonia in people associated with Huanan Seafood Wholesale Market in Wuhan, Hubei Province. By the end of the year, there were over 30 individuals in China with confirmed cases of the virus. Subsequently over the next few months, the virus spread to more than two dozen countries causing sickness and death to thousand of people worldwide. Currently, we are at a global pandemic with majority of the countries and islands around the world fighting against the 2019 novel coronavirus (COVID-19). 
 ## Resources
 
 * [1Point3Acres Real Time](https://coronavirus.1point3acres.com/en)
-* [CDC](https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html)
+* [CDC Cases Updates](https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html)
+* [CDC Human Coronavirus Types](https://www.cdc.gov/coronavirus/types.html) 
 * [wa.gov Coronavirus Response](https://coronavirus.wa.gov/)
-
+* [npr.org Coronavirus 101](https://www.npr.org/sections/goatsandsoda/2020/01/24/798661901/wuhan-coronavirus-101-what-we-do-and-dont-know-about-a-newly-identified-disease) 
+* [britannica.com SARS Pathology]

@@ -30,6 +30,20 @@ jobs:
         node-version: '10.x'
     - run: npm install
 
+    - name: Get Current Day
+      id: current-day
+      run: echo "::set-output name=day::$(date '+%d')"
+
+    - name: Cache Hugo Assets
+      id: cache-hugo-assets
+      uses: actions/cache@v1
+      with:
+        path: /tmp/hugo_cache
+        key: hugo-${{ steps.current-day.outputs.day }}
+        restore-keys: |
+          hugo-${{ steps.current-day.outputs.day }}
+          hugo-
+
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:

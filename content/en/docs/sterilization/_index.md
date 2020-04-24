@@ -1,6 +1,6 @@
 ---
 title: "Sterilization"
-draft: false
+draft: true
 menu:
   main:
     weight: 10

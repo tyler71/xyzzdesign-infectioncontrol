@@ -1,0 +1,30 @@
+{{- $countries := (split (.Get "countries") ",") -}}
+{{- $label := default "input" (.Get "label") -}}
+{{- $type := default "pie" (.Get "type") -}}
+
+{{- $covidAPI := "https://api.covid19api.com/summary" -}}
+{{- $quickChartApiPre := "https://charts.xyzz.work/chart?" -}}
+{{- $quickChartOptions := "backgroundColor=white&encoding=base64&" -}}
+{{- $quickChartApiPost := "c=" -}}
+{{- $quickChartApi := (printf "%s%s%s" $quickChartApiPre $quickChartOptions $quickChartApiPost) -}}
+
+
+{{- $postRequest := getJSON $covidAPI -}}
+
+{{- $dataCounts := slice -}} {{/* empty array */}}
+{{- range $countries -}}
+    {{- $country := . -}}
+    {{- range $postRequest.Countries -}}
+        {{- if eq $country .Slug -}}
+        {{- $dataCounts = $dataCounts | append .NewConfirmed -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+{{- $dataset := dict "label" $label "data" $dataCounts -}}
+{{- $datasets := (slice $dataset) -}}
+{{- $data := dict "labels" $countries "datasets" $datasets -}}
+{{- $objectRequest := dict "type" $type "data" $data -}}
+{{- $objectRequestJson := $objectRequest | jsonify | base64Encode -}}
+
+<img id="chart-covid" src="{{ $quickChartApi }}{{ $objectRequestJson }}">

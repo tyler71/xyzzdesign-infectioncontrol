@@ -4,7 +4,7 @@
 
 {{- $covidAPI := "https://api.covid19api.com/summary" -}}
 {{- $quickChartApiPre := "https://charts.xyzz.work/chart?" -}}
-{{- $quickChartOptions := "backgroundColor=white&encoding=base64&" -}}
+{{- $quickChartOptions := "encoding=base64&" -}}
 {{- $quickChartApiPost := "c=" -}}
 {{- $quickChartApi := (printf "%s%s%s" $quickChartApiPre $quickChartOptions $quickChartApiPost) -}}
 

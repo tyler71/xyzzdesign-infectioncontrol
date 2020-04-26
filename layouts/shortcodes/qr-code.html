@@ -1,0 +1,5 @@
+{{- $qrString := .Page.Permalink -}}
+
+{{- $qrPreApi := "https://charts.xyzz.work/qr?text=" -}}
+<img src="{{ $qrPreApi }}{{ $qrString }}">
+

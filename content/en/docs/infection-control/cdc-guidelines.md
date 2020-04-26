@@ -2,7 +2,6 @@
 title: "CDC-Guidelines"
 ---
 
-
 CDC Training Modules
 
 ## Introduction

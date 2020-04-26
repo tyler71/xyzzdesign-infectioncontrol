@@ -42,6 +42,9 @@ SARS-CoV-2|novel|(the novel coronavirus that causes coronavirus disease 2019, or
 
 Coronaviruses (CoVs) originate from animals such camels, civets and bats and cause a variety of diseases in different species. In cows and pigs coronaviruses can cause enteritis, in chickens and humans they cause upper respiratory infections which can potentially be lethal to humans. SARS coronaviruses including COVID-19 are believed to have specifically originate from horseshoe bats.  
 The first case of (SARS-CoV-2) COVID-19 emerged in late December of 2019 after China reported cases of pneumonia in people associated with Huanan Seafood Wholesale Market in Wuhan, Hubei Province. By the end of the year, there were over 30 individuals in China with confirmed cases of the virus. Subsequently over the next few months, the virus spread to more than two dozen countries causing sickness and death to thousand of people worldwide. Currently, we are at a global pandemic with majority of the countries and islands around the world fighting against the 2019 novel coronavirus (COVID-19). 
+
+{{< covid-country-chart type="pie" fontcolor="black" fontsize="6" label="Confirmed Cases" countries="china,germany,italy,united-states,canada" >}}
+
 ## Resources
 
 * [1Point3Acres Real Time](https://coronavirus.1point3acres.com/en)

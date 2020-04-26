@@ -1,30 +1,48 @@
+
 {{- $countries := (split (.Get "countries") ",") -}}
 {{- $label := default "input" (.Get "label") -}}
 {{- $type := default "pie" (.Get "type") -}}
+{{- $width := default "500" (.Get "width") -}}
+{{- $height := default "300" (.Get "height") -}}
+{{- $backgroundColor := (default "transparent" (.Get "backgroundcolor")) -}}
+
+{{- $fontSize := default "13" (.Get "fontsize") -}}
+{{- $fontWeight := default "normal" (.Get "fontweight") -}}
+{{- $fontColor := (default "#fff" (.Get "fontcolor")) -}}
+
+
+{{- $chartConfig := (dict "plugins" (dict "datalabels" (dict "color" $fontColor "font" (dict "size" $fontSize "weight" $fontWeight))) "legend" (dict "labels" (dict "fontColor" $fontColor))) -}}
 
 {{- $covidAPI := "https://api.covid19api.com/summary" -}}
 {{- $quickChartApiPre := "https://charts.xyzz.work/chart?" -}}
-{{- $quickChartOptions := "encoding=base64&" -}}
+{{- $quickChartOptions := printf "w=%s&h=%s&bkg=%s&encoding=%s&" $width $height $backgroundColor "base64" -}}
 {{- $quickChartApiPost := "c=" -}}
 {{- $quickChartApi := (printf "%s%s%s" $quickChartApiPre $quickChartOptions $quickChartApiPost) -}}
 
+{{/* Add in custom processing below */}}
 
+
+{{/* Uses Summary API https://covid19api.com/. Refer to each country by the Slug */}}
 {{- $postRequest := getJSON $covidAPI -}}
 
 {{- $dataCounts := slice -}} {{/* empty array */}}
+{{- $countryPrettyName := slice -}}
 {{- range $countries -}}
     {{- $country := . -}}
     {{- range $postRequest.Countries -}}
         {{- if eq $country .Slug -}}
-        {{- $dataCounts = $dataCounts | append .NewConfirmed -}}
+        {{- $dataCounts = $dataCounts | append .TotalConfirmed -}}
+        {{- $countryPrettyName = $countryPrettyName | append .Country -}}
         {{- end -}}
     {{- end -}}
 {{- end -}}
 
+{{/* Add in custom processing above */}}
+
 {{- $dataset := dict "label" $label "data" $dataCounts -}}
 {{- $datasets := (slice $dataset) -}}
-{{- $data := dict "labels" $countries "datasets" $datasets -}}
-{{- $objectRequest := dict "type" $type "data" $data -}}
-{{- $objectRequestJson := $objectRequest | jsonify | base64Encode -}}
+{{- $data := dict "labels" $countryPrettyName "datasets" $datasets -}}
 
+{{- $objectRequest := dict "type" $type "data" $data "options" $chartConfig -}}
+{{- $objectRequestJson := $objectRequest | jsonify | base64Encode -}}
 <img id="chart-covid" src="{{ $quickChartApi }}{{ $objectRequestJson }}">

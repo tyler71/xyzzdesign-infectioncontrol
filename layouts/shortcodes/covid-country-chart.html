@@ -1,7 +1,7 @@
-
 {{- $countries := (split (.Get "countries") ",") -}}
 {{- $label := default "input" (.Get "label") -}}
 {{- $type := default "pie" (.Get "type") -}}
+{{- $imgAlt := default (printf "%s chart image with input %s" $type $countries) (.Get "alt") -}}
 {{- $width := default "500" (.Get "width") -}}
 {{- $height := default "300" (.Get "height") -}}
 {{- $backgroundColor := (default "transparent" (.Get "backgroundcolor")) -}}
@@ -45,4 +45,4 @@
 
 {{- $objectRequest := dict "type" $type "data" $data "options" $chartConfig -}}
 {{- $objectRequestJson := $objectRequest | jsonify | base64Encode -}}
-<img id="chart-covid" src="{{ $quickChartApi }}{{ $objectRequestJson }}">
+<img alt="{{ $imgAlt }}" id="chart-covid" src="{{ $quickChartApi }}{{ $objectRequestJson }}">

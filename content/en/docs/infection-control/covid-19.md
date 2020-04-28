@@ -3,6 +3,7 @@ title: "COVID-19"
 menu:
   main:
     weight: 10
+draft: false
 ---
 
 {{% alert title="Stay at Home" color="warning" %}}
@@ -44,7 +45,8 @@ Coronaviruses (CoVs) originate from animals such camels, civets and bats and cau
 
 The first case of (SARS-CoV-2) COVID-19 emerged in late December of 2019 after China reported cases of pneumonia in people associated with Huanan Seafood Wholesale Market in Wuhan, Hubei Province. By the end of the year, there were over 30 individuals in China with confirmed cases of the virus. Subsequently over the next few months, the virus spread to more than two dozen countries causing sickness and death to thousand of people worldwide. Currently, we are at a global pandemic with majority of the countries and islands around the world fighting against the 2019 novel coronavirus (COVID-19). Below are some of the countries affected by the coronavirus and their confirmed cases as reported by Johns Hopkins University Center for Systems Science and Engineering.
 
-{{< covid-country-chart type="pie" width="500" height="240"  fontcolor="black" fontsize="7.5" label="Confirmed Cases" countries="italy,germany,united-states,spain,china" >}}
+{{< covid-country-chart type="pie" width="500" height="230"  fontcolor="black" fontsize="7.5" label="Confirmed Cases" countries="italy,germany,united-states,spain,china" >}}
+The figures below are based on data from the Johns Hopkins University Center for Systems Science and Engineering.
 
 ## Signs and Symptoms
 
@@ -57,3 +59,4 @@ The first case of (SARS-CoV-2) COVID-19 emerged in late December of 2019 after C
 * [wa.gov Coronavirus Response](https://coronavirus.wa.gov/)
 * [npr.org Coronavirus 101](https://www.npr.org/sections/goatsandsoda/2020/01/24/798661901/wuhan-coronavirus-101-what-we-do-and-dont-know-about-a-newly-identified-disease) 
 * [britannica.com SARS Pathology](https://www.britannica.com/science/SARS#ref779701) 
+* [coronavirus.jhu.edu COVID-19 Dashboard](https://coronavirus.jhu.edu/map.html)

@@ -1,5 +1,6 @@
 ---
 title: "COVID-19"
+description: "Facts about Coronavirus. With updated charts of incidents around the world"
 menu:
   main:
     weight: 10

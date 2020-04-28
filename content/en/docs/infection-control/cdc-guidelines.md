@@ -1,5 +1,6 @@
 ---
 title: "CDC-Guidelines"
+draft: true
 ---
 
 CDC Training Modules

@@ -1,13 +1,12 @@
 ---
 title: "CDC-Guidelines"
-draft: true
+draft: false
 ---
-
-CDC Training Modules
-
-## Introduction
-
+Infection Prevention Practices in 
 ### Risks to Dental Health Care Personnel 
+Dental Settings
+During a dental procedure, both patients and dental health care personnel (DHCP) risk being exposed to a vast array of pathogens via contact with bodily secrections such as blood, saliva, respiratory secretions, and contaminated equipments. Below are some of the common diseases patients and DHCP can contract and reccommeended infection prevention procedures 
+
 Bloodborne pathogens
 * hepatitis B virus (HBV)
 * hepatitis C virus (HCV)

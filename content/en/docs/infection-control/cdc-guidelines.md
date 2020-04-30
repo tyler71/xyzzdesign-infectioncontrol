@@ -7,15 +7,13 @@ Infection Prevention Practices in Dental Settings
 ### Risks to Dental Health Care Personnel 
 During a dental procedure, both patients and dental health care personnel (DHCP) risk being exposed to a vast array of pathogens via contact with bodily secrections such as blood, saliva, respiratory secretions, and contaminated equipments. Below are some of the common diseases both patients and DHCP can contract and recommended infection prevention procedures. This will prevent transmission of pathogens while keeping patients and DHCP safe and healthy. 
 
-##### What are bloodborne pathogens?
-Bloodborne pathogens are infectious bacterium found in human blood that can potentially cause diseases in humans when if exposed. These pathogens included but are not limited to:
-* hepatitis B virus (HBV)
-* hepatitis C virus (HCV)
-* and human immunodeficiency virus (HIV)
-These pathogens are transmissible in health care setting via needlesticks and other sharps-related injuries may expose both patients and DHCP to bloodborne pathogens to lifelong chronic infections. Some of these pathogens are often carried by people unaware of their infections. Thus, it is necessary to  
+#### What are bloodborne pathogens?
+Bloodborne pathogens are infectious bacterium found in human blood that can potentially cause diseases in humans when if exposed. These pathogens included but are not limited to hepatitis B virus (HBV), hepatitis C virus (HCV) and human immunodifeciency virus (HIV). These pathogens are transmissible in health care setting via needlesticks and other sharps-related injuries may expose both patients and DHCP to bloodborne pathogens to lifelong chronic infections. Some of these pathogens are often carried by people unaware of their infections. Thus, it is necessary to properly follow infection prevention procedured to prevent transmission of pathogens to one another.  
 
-How to protect?
-
+##### How to protect against bloodborne pathogens?
+There are three tiers of precautions that are recommended by the Center of Disease and Control (CDC) to protect workers and patients. The tiers include:
+* Universal precautions, is an approach to infection control which all human blood and certain human body fluids are treated as if they are known to be infectious. Although bloodborne pathogen standard incorporates universal precautions, the infection control community no longer uses this precaution on it's own and works together with the other two precautions. 
+* Standard precaustions, 
 * Hand hygiene.
 * Using personal protective equipment.
 * Respiratory hygiene/cough etiquette.

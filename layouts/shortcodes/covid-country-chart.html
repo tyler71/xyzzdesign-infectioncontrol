@@ -10,16 +10,16 @@
 {{- $fontWeight := default "normal" (.Get "fontweight") -}}
 {{- $fontColor := (default "#fff" (.Get "fontcolor")) -}}
 
-
 {{- $chartConfig := (dict "plugins" (dict "datalabels" (dict "color" $fontColor "font" (dict "size" $fontSize "weight" $fontWeight))) "legend" (dict "labels" (dict "fontColor" $fontColor))) -}}
 
-{{- $covidAPI := "https://api.covid19api.com/summary" -}}
-{{- $quickChartApiPre := "https://charts.xyzz.work/chart?" -}}
-{{- $quickChartOptions := printf "w=%s&h=%s&bkg=%s&encoding=%s&" $width $height $backgroundColor "base64" -}}
-{{- $quickChartApiPost := "c=" -}}
-{{- $quickChartApi := (printf "%s%s%s" $quickChartApiPre $quickChartOptions $quickChartApiPost) -}}
+{{- $encoding := "" -}}
+{{- if .Site.IsServer -}} {{- $encoding = "url" -}} {{- else -}} {{- $encoding = "base64" -}} {{- end -}}
 
 {{/* Add in custom processing below */}}
+
+{{- $covidAPI := "https://api.covid19api.com/summary" -}}
+{{- $quickChartPre := "https://charts.xyzz.work/chart?" -}}
+
 
 
 {{/* Uses Summary API https://covid19api.com/. Refer to each country by the Slug */}}
@@ -43,6 +43,11 @@
 {{- $datasets := (slice $dataset) -}}
 {{- $data := dict "labels" $countryPrettyName "datasets" $datasets -}}
 
-{{- $objectRequest := dict "type" $type "data" $data "options" $chartConfig -}}
-{{- $objectRequestJson := $objectRequest | jsonify | base64Encode -}}
-<img alt="{{ $imgAlt }}" id="chart-covid" src="{{ $quickChartApi }}{{ $objectRequestJson }}">
+{{- $objectRequest := (dict "type" $type "data" $data "options" $chartConfig) -}}
+{{- if .Site.IsServer -}}
+    {{- $objectRequest = ($objectRequest | jsonify | safeURL) -}}
+{{- else -}}
+    {{- $objectRequest = ($objectRequest | jsonify | base64Encode) -}}
+{{- end -}}
+{{- $objectQuery := (querify "w" $width "h" $height "bkg" $backgroundColor "encoding" $encoding "c" $objectRequest) -}}
+<img alt="{{ $imgAlt }}" id="chart-covid" src="{{ $quickChartPre }}{{ $objectQuery }}">

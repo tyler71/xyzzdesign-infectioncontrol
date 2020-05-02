@@ -8,12 +8,12 @@ Infection Prevention Practices in Dental Settings
 During a dental procedure, both patients and dental health care personnel (DHCP) risk being exposed to a vast array of pathogens via contact with bodily secretions such as blood, saliva, respiratory secretions, and contaminated equipment. Below are some of the common diseases both patients and DHCP can contract and recommended infection prevention procedures. This will prevent transmission of pathogens while keeping patients and DHCP safe and healthy. 
 
 #### What are bloodborne pathogens?
-Bloodborne pathogens are infectious bacterium found in human blood that can potentially cause diseases in humans when if exposed. These pathogens included but are not limited to hepatitis B virus (HBV), hepatitis C virus (HCV) and human immunodeficiency virus (HIV). These pathogens are transmissible in health care setting via needlesticks and other sharps-related injuries may expose both patients and DHCP to bloodborne pathogens to lifelong chronic infections. Some of these pathogens are often carried by people unaware of their infections. Thus, it is necessary to properly follow infection prevention procedures to prevent transmission of pathogens to one another.  
+Bloodborne pathogens are infectious bacterium found in human blood that can potentially cause diseases in humans if exposed. These pathogens included but are not limited to hepatitis B virus (HBV), hepatitis C virus (HCV) and human immunodeficiency virus (HIV). These pathogens are transmissible in health care settings via needlesticks and other sharps-related injuries and may expose both patient and DHCP to bloodborne pathogens to lifelong chronic infections. Some of these pathogens are often carried by people unaware of their infections. Thus, it is necessary to properly follow infection prevention procedures to prevent transmission of pathogens to one another.  
 
 ##### How to protect against bloodborne pathogens?
 There are two tiers of precautions that are recommended by the Center of Disease and Control (CDC) to protect workers and patients. These tiers include standard precautions and transmission-based precautions. When both of precautions are applied they maximize the saftey of both DCHP and the patients.
 
-Standard precautions (SP) - is the primary way to prevent transmission of infectious agents. It protects both DHCP and patients not only from pathogens in human blood but other bodily fluids and secretions that one may be exposed to during provision of a procedure. Some elements include:
+**Standard Precautions (SP)** - is the primary way to prevent transmission of infectious agents. It protects both DHCP and patients not only from pathogens in human blood but other bodily fluids and secretions that one may be exposed to during provision of a procedure. Some elements include:
    * Hand hygiene.
    * Using personal protective equipment.
    * Respiratory hygiene/cough etiquette.
@@ -22,7 +22,9 @@ Standard precautions (SP) - is the primary way to prevent transmission of infect
    * Sterilization and disinfection of instruments and devices.
    * Cleaning and disinfecting environmental surfaces.
 
-Standard precautions,applies without limitation to urine, feces, nasal secretions, sputum, vomit, and other body fluids that may be potential sources of worker exposure to infectious agents. These precautions, apply to all patients even when they are not known or suspected to be infectious. They must be used in the care of all patients, relentless.
+Standard Precautions, applies without limitation to urine, feces, nasal secretions, sputum, vomit, and other body fluids that may be potential sources of worker exposure to infectious agents. These precautions, apply to all patients even when they are not known or suspected to be infectious. They must be used in the care of all patients, relentlessly.
+
+**Transmission-Based Precautions (TBP)** -
 
 ### Protection
 

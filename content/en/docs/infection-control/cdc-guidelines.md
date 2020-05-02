@@ -43,21 +43,6 @@ To protect from this, a number of steps can be made
 
 ## Hand Hygiene
 
-## Personal Protective Equipment
-
-## Respiratory Hygiene and Cough 
-
-## Sharps Safety
-
-## Safe Injection Practices 
-
-## Sterilization and Disinfection 
-
-## Environmental Infection Prevention and Control
-
-## Dental Unit Water Quality 
-
-## Program Evaluation 
 
 ## Resources
 * Introduction | [CDC](https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC1-Introduction-508.pdf) -

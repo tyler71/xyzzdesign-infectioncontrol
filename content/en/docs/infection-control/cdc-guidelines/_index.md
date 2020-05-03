@@ -5,7 +5,10 @@ draft: false
 Infection Prevention Practices in Dental Settings
 
 ## Risks to Dental Health Care Personnel 
-During a dental procedure, both patients and dental health care personnel (DHCP) risk being exposed to a vast array of pathogens via contact with bodily secretions such as blood, saliva, respiratory secretions, and contaminated equipment. Below are some of the common diseases both patients and DHCP can contract and recommended infection prevention procedures. This will prevent transmission of pathogens while keeping patients and DHCP safe and healthy. 
+Although the transfference of  infectious agents is seldom in a dental setting, there still remains the potiental of both patients and dental health care personnel (DHCP) contracting a pernicious pathogen.
+
+During a dental procedure, both patients and (DHCP) are at a risk of being exposed to a myraid of pathogens via contact with bodily secretions such as blood, saliva, respiratory secretions, and contaminated equipment.  
+  Below are some of the common diseases both patients and DHCP can contract and recommended infection prevention procedures. This will prevent transmission of pathogens while keeping patients and DHCP safe and healthy. 
 
 ### Bloodborne pathogens
 Bloodborne pathogens are infectious bacterium found in human blood that can potentially cause diseases in humans if exposed. These pathogens included but are not limited to hepatitis B virus (HBV), hepatitis C virus (HCV) and human immunodeficiency virus (HIV). These pathogens are transmissible in health care settings via needlesticks and other sharps-related injuries and may expose both patient and DHCP to bloodborne pathogens to lifelong chronic infections. Some of these pathogens are often carried by people unaware of their infections. Thus, it is necessary to properly follow infection prevention procedures to prevent transmission of pathogens to one another.  

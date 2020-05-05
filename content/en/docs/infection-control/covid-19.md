@@ -12,12 +12,12 @@ The stay at home order has been continued to May 31th, 2020
 {{% /alert %}}
 
 ## Government Mandate
-Governor Inslee has extended the [stay at home order](https://tribkcpq.files.wordpress.com/2020/05/four-phases.png). What does this mean?  
+Governor Inslee has extended the [stay at home order](https://tribkcpq.files.wordpress.com/2020/05/four-phases.png). There are four phases to take place throught out the months as the government re-opens. With this given information, this means that:
 
 We are currently in `Phase 1`
 
 * Stay home & stay healthy
-* Some outdoor activities
+* Some outdoor recreational activities
 * Essential Travel
 * Essential businesses open
 
@@ -45,7 +45,7 @@ Coronaviruses (CoVs) originate from animals such camels, civets and bats and cau
 
 The first case of (SARS-CoV-2) COVID-19 emerged in late December of 2019 after China reported cases of pneumonia in people associated with Huanan Seafood Wholesale Market in Wuhan, Hubei Province. By the end of the year, there were over 30 individuals in China with confirmed cases of the virus. Subsequently over the next few months, the virus spread to more than two dozen countries causing sickness and death to thousand of people worldwide. Currently, we are at a global pandemic with majority of the countries and islands around the world fighting against the 2019 novel coronavirus (COVID-19). Below are some of the countries affected by the coronavirus and their confirmed cases as reported by Johns Hopkins University Center for Systems Science and Engineering.
 
-{{< covid-country-chart type="donut" width="500" height="230"  fontcolor="black" fontsize="6" label="Confirmed Cases" countries="italy,germany,united-states,spain,china" >}}
+{{< covid-country-chart type="pie" width="500" height="230"  fontcolor="black" fontsize="6" label="Confirmed Cases" countries="italy,germany,united-states,spain,china" >}}
 The figures below are based on data from the Johns Hopkins University Center for Systems Science and Engineering.
 
 ## Signs and Symptoms

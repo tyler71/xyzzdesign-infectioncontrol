@@ -10,7 +10,12 @@
 {{- $fontWeight := default "normal" (.Get "fontweight") -}}
 {{- $fontColor := (default "#fff" (.Get "fontcolor")) -}}
 
-{{- $chartConfig := (dict "plugins" (dict "datalabels" (dict "color" $fontColor "font" (dict "size" $fontSize "weight" $fontWeight))) "legend" (dict "labels" (dict "fontColor" $fontColor))) -}}
+{{- $c5 := (dict "fontColor" $fontColor) -}}
+{{- $c4 := (dict "labels" $c5) -}}
+{{- $c3 := (dict "size" $fontSize "weight" $fontWeight) -}}
+{{- $c2 := (dict "color" $fontColor "font" $c3 ) -}}
+{{- $c1 := (dict "datalabels" $c2) -}}
+{{- $chartConfig := (dict "plugins" $c1 "legend" $c4) -}}
 
 {{- $encoding := "" -}}
 {{- if .Site.IsServer -}} {{- $encoding = "url" -}} {{- else -}} {{- $encoding = "base64" -}} {{- end -}}

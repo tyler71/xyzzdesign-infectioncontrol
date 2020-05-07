@@ -15,6 +15,14 @@
 {{- $c3 := (dict "size" $fontSize "weight" $fontWeight) -}}
 {{- $c2 := (dict "color" $fontColor "font" $c3 ) -}}
 {{- $c1 := (dict "datalabels" $c2) -}}
+{{/* Override the options for outlabled pie chart */}}
+{{- if eq $type "outlabeledPie" -}}
+    {{- $c1 = (dict "datalabels" "") -}}
+    {{- $c4 = "" -}}
+    {{- $c1 = merge $c1 (dict "outlabels" (dict "text" "%l %p" "color" $fontColor "stretch" 30 "font" (dict "resizable" "true" "minSize" $fontSize "maxSize" $fontSize))) -}}
+{{- end -}}
+
+
 {{- $chartConfig := (dict "plugins" $c1 "legend" $c4) -}}
 
 {{- $encoding := "" -}}

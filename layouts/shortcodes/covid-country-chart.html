@@ -1,5 +1,8 @@
 {{- $countries := (split (.Get "countries") ",") -}}
 {{- $label := default "input" (.Get "label") -}}
+{{- $title := default "" (.Get "title") -}}
+{{- $titleColor := default "black" (.Get "titleColor") -}}
+{{- $legendPosition := default "top" (.Get "legendPosition") -}}
 {{- $type := default "pie" (.Get "type") -}}
 {{- $imgAlt := default (printf "%s chart image with input %s" $type $countries) (.Get "alt") -}}
 {{- $width := default "500" (.Get "width") -}}
@@ -10,20 +13,28 @@
 {{- $fontWeight := default "normal" (.Get "fontweight") -}}
 {{- $fontColor := (default "#fff" (.Get "fontcolor")) -}}
 
+{{- $c6 := "" -}}
+{{- with $title -}}
+    {{- $c6 = (dict "display" "true" "fontColor" $titleColor "text" .) -}}
+{{- end -}}
+
 {{- $c5 := (dict "fontColor" $fontColor) -}}
-{{- $c4 := (dict "labels" $c5) -}}
+{{- $c4 := (dict "labels" $c5 "position" $legendPosition) -}}
+
 {{- $c3 := (dict "size" $fontSize "weight" $fontWeight) -}}
 {{- $c2 := (dict "color" $fontColor "font" $c3 ) -}}
 {{- $c1 := (dict "datalabels" $c2) -}}
+
 {{/* Override the options for outlabled pie chart */}}
-{{- if eq $type "outlabeledPie" -}}
+{{- if eq $type "outpie" -}}
+    {{- $type = "outlabeledPie" -}}
     {{- $c1 = (dict "datalabels" "") -}}
     {{- $c4 = "" -}}
     {{- $c1 = merge $c1 (dict "outlabels" (dict "text" "%l %p" "color" $fontColor "stretch" 30 "font" (dict "resizable" "true" "minSize" $fontSize "maxSize" $fontSize))) -}}
 {{- end -}}
 
 
-{{- $chartConfig := (dict "plugins" $c1 "legend" $c4) -}}
+{{- $chartConfig := (dict "plugins" $c1 "legend" $c4 "title" $c6 ) -}}
 
 {{- $encoding := "" -}}
 {{- if .Site.IsServer -}} {{- $encoding = "url" -}} {{- else -}} {{- $encoding = "base64" -}} {{- end -}}

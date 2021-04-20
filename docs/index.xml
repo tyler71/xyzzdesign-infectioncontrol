@@ -1,0 +1,109 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Infection Control – Documentation</title><link>https://infection.xyzz.work/docs/</link><description>Recent content in Documentation on Infection Control</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://infection.xyzz.work/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: COVID -19</title><link>https://infection.xyzz.work/docs/infection-control/covid-19/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://infection.xyzz.work/docs/infection-control/covid-19/</guid><description>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Stay at Home&lt;/h4>
+The stay at home order has been continued to May 31th, 2020
+&lt;/div>
+&lt;h2 id="government-mandate">Government Mandate&lt;/h2>
+&lt;p>Governor Inslee has extended the &lt;a href="https://tribkcpq.files.wordpress.com/2020/05/four-phases.png">stay at home order&lt;/a>. There are four phases to take place throught out the months as the government re-opens. With this given information, this means that:&lt;/p>
+&lt;p>We are currently in &lt;code>Phase 1&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>Stay home &amp;amp; stay healthy&lt;/li>
+&lt;li>Some outdoor recreational activities&lt;/li>
+&lt;li>Essential Travel&lt;/li>
+&lt;li>Essential businesses open&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-is-coronavirus">What is Coronavirus&lt;/h2>
+&lt;p>Coronavirus, is any virus belonging to the family Coronaviridae. These viruses are named after the Latin word corona which characterizes the crown-like spikes on the surface of the virus. Along with the current strain causing the global pandemic, there are six other known coronaviruses that can affect humans. Each then is subdivided into four generes, the alpha, beta, gamma, and delta depending on their phylogenic clustering. These viruses include:
+&lt;table class="table table-striped">
+&lt;thead>
+&lt;tr>
+&lt;th align="center">Name&lt;/th>
+&lt;th align="center">Group&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td align="center">229E&lt;/td>
+&lt;td align="center">alpha&lt;/td>
+&lt;td>coronavirus&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td align="center">NL63&lt;/td>
+&lt;td align="center">alpha&lt;/td>
+&lt;td>coronavirus&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td align="center">OC43&lt;/td>
+&lt;td align="center">beta&lt;/td>
+&lt;td>coronavirus&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td align="center">HKU1&lt;/td>
+&lt;td align="center">beta&lt;/td>
+&lt;td>coronavirus&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td align="center">MERS-CoV&lt;/td>
+&lt;td align="center">beta&lt;/td>
+&lt;td>(the beta coronavirus that causes Middle East Respiratory Syndrome, or MERS)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td align="center">SARS-CoV&lt;/td>
+&lt;td align="center">beta&lt;/td>
+&lt;td>(the beta coronavirus that causes severe acute respiratory syndrome, or SARS)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td align="center">SARS-CoV-2&lt;/td>
+&lt;td align="center">novel&lt;/td>
+&lt;td>(the novel coronavirus that causes coronavirus disease 2019, or COVID-19)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/p>
+&lt;blockquote>
+&lt;p>People around the world commonly get infected with human coronaviruses 229E, NL63, OC43, and HKU1.&lt;/p>
+&lt;p>Sometimes coronaviruses that infect animals can evolve and make people sick and become a new human coronavirus. Three recent examples of this are 2019-nCoV, SARS-CoV, and MERS-CoV.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="origination-of-covid-19">Origination of COVID-19&lt;/h2>
+&lt;p>Coronaviruses (CoVs) originate from animals such camels, civets and bats and cause a variety of diseases in different species. In cows and pigs coronaviruses can cause enteritis, in chickens and humans they cause upper respiratory infections which can potentially be lethal to humans. SARS coronaviruses including COVID-19 are believed to have specifically originate from horseshoe bats.&lt;/p>
+&lt;p>The first case of (SARS-CoV-2) COVID-19 emerged in late December of 2019 after China reported cases of pneumonia in people associated with Huanan Seafood Wholesale Market in Wuhan, Hubei Province. By the end of the year, there were over 30 individuals in China with confirmed cases of the virus. Subsequently over the next few months, the virus spread to more than two dozen countries causing sickness and death to thousand of people worldwide. Currently, we are at a global pandemic with majority of the countries and islands around the world fighting against the 2019 novel coronavirus (COVID-19). Below are some of the countries affected by the coronavirus and their confirmed cases as reported by Johns Hopkins University Center for Systems Science and Engineering.&lt;/p>
+&lt;img alt="pie chart image with input [italy germany united-states spain china]" id="chart-covid" src="https://charts.xyzz.work/chart?bkg=transparent&amp;amp;c=eyJkYXRhIjp7ImRhdGFzZXRzIjpbeyJkYXRhIjpbMzg3MDEzMSwzMTU1NTIyLDMxNjcwMDMxLDM0MDcyODMsMTAyMjQyXSwibGFiZWwiOiJDb25maXJtZWQgQ2FzZXMifV0sImxhYmVscyI6WyJJdGFseSIsIkdlcm1hbnkiLCJVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EiLCJTcGFpbiIsIkNoaW5hIl19LCJvcHRpb25zIjp7ImxlZ2VuZCI6eyJsYWJlbHMiOnsiZm9udENvbG9yIjoiYmxhY2sifSwicG9zaXRpb24iOiJ0b3AifSwicGx1Z2lucyI6eyJkYXRhbGFiZWxzIjp7ImNvbG9yIjoiYmxhY2siLCJmb250Ijp7InNpemUiOiI2Iiwid2VpZ2h0Ijoibm9ybWFsIn19fSwidGl0bGUiOiIifSwidHlwZSI6InBpZSJ9&amp;amp;encoding=base64&amp;amp;h=230&amp;amp;w=500">
+&lt;h2 id="signs-and-symptoms">Signs and Symptoms&lt;/h2>
+&lt;p>The symptoms for COVID-19 might appear as those of a cold or a flu. According to a report of World Health Organization-China Joint Mission, in 80% of known cases, COVID-19 causes mild to moderate illness. Early mild symptoms begin as a fever and a dry cough and gradually develops into moderate symptoms. Other symptoms include chills, repeated shaking with chills, muscle pain, headache, sore throat, new loss of taste and smell, severe vomitting and less frequently, diarrhea.&lt;/p>
+&lt;p>Although a mild case of COVID-19 fundamentally is not threatening, older population, immunocompromised, and those with underlying medical conditions such as diabetes, lung and heart diseases are at a higher risk for developing more severe perhaps even fatal complications. Severe symptoms may include shortness of breath, persistent pain or pressure in the chest, new confusion, bluish lips or face. Children have similar symptoms to adults and generally have mild illness. If any of these severe symptoms are apparent, one should consult a medical provider and seek medical attention immediately in behalf of their safety and of others they may come in contact with.&lt;/p>
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://coronavirus.1point3acres.com/en">1Point3Acres Real Time&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html">CDC Cases Updates&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cdc.gov/coronavirus/types.html">CDC Human Coronavirus Types&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://coronavirus.wa.gov/">wa.gov Coronavirus Response&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.npr.org/sections/goatsandsoda/2020/01/24/798661901/wuhan-coronavirus-101-what-we-do-and-dont-know-about-a-newly-identified-disease">npr.org Coronavirus 101&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.britannica.com/science/SARS#ref779701">britannica.com SARS Pathology&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/CSSEGISandData/COVID-19">Johns Hopkins CSSE&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html">CDC Covid-19 Symptoms&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html">NPR coronavirus symptoms&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Resources</title><link>https://infection.xyzz.work/docs/infection-control/cdc-guidelines/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://infection.xyzz.work/docs/infection-control/cdc-guidelines/resources/</guid><description>
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;ul>
+&lt;li>Introduction | &lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC1-Introduction-508.pdf">CDC&lt;/a> -
+&lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC1_IntroductionScript-508.pdf">Speaker Notes&lt;/a>&lt;/li>
+&lt;li>Hand Hygiene | &lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC2-Hand-Hygiene-508.pdf">CDC&lt;/a> -
+&lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC2_HandHygieneScript-508.pdf">Speaker Notes&lt;/a>&lt;/li>
+&lt;li>Personal Protective Equipment | &lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC3-PPE-508.pdf">CDC&lt;/a> -
+&lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC3_PPEScript-508.pdf">Speaker Notes&lt;/a>&lt;/li>
+&lt;li>Respiratory Hygiene and Cough | &lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC4-Respiratory-Hygiene-508.pdf">CDC&lt;/a> -
+&lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC4_RespiratoryHygieneScript-508.pdf">Speaker Notes&lt;/a>&lt;/li>
+&lt;li>Sharps Safety | &lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC5-Sharps-Safety-508.pdf">CDC&lt;/a> -
+&lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC5_SharpsSafetyScript-508.pdf">Speaker Notes&lt;/a>&lt;/li>
+&lt;li>Safe Injection Practices | &lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC6-Injection-Safety-508.pdf">CDC&lt;/a> -
+&lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC6_SafeInjectionPracticesScript.pdf">Speaker Notes&lt;/a>&lt;/li>
+&lt;li>Sterilization and Disinfection | &lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC7-Sterilization-508.pdf">CDC&lt;/a> -
+&lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC7_SterilizationDisinfectionScript-508.pdf">Speaker Notes&lt;/a>&lt;/li>
+&lt;li>Environmental Infection Prevention and Control | &lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC8-Environmental-IPC-508.pdf">CDC&lt;/a> -
+&lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC8_EnvironmentScript-508.pdf">Speaker Notes&lt;/a>&lt;/li>
+&lt;li>Dental Unit Water Quality | &lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC9-Dental-Unit-Water-508.pdf">CDC&lt;/a> -
+&lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC9_DentalUnitWaterQualityScript-508.pdf">Speaker Notes&lt;/a>&lt;/li>
+&lt;li>Program Evaluation | &lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC10-Program-Evaluation-508.pdf">CDC&lt;/a> -
+&lt;a href="https://www.cdc.gov/oralhealth/pdfs_and_other_files/BESC10_ProgramEvaluationScript-508.pdf">Speaker Notes&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
